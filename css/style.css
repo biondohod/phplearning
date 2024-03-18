@@ -1,4 +1,3 @@
-/* Styles for form container */
 main {
   margin: 20px auto;
   max-width: 400px;
@@ -8,13 +7,11 @@ main {
   background-color: #f9f9f9;
 }
 
-/* Styles for form labels */
 label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* Styles for form inputs */
 input[type="text"],
 select {
   width: 100%;
@@ -22,10 +19,9 @@ select {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensures padding and border are included in width */
+  box-sizing: border-box; 
 }
 
-/* Styles for submit button */
 button[type="submit"] {
   background-color: #4CAF50;
   color: white;
@@ -35,7 +31,6 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-/* Hover effect for submit button */
 button[type="submit"]:hover {
   background-color: #45a049;
 }
